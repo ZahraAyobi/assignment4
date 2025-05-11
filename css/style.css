@@ -1,0 +1,32 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #f5f5dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #8b4513;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    color: #daa520;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.intro, .featured-proverbs, .gallery, form {
+    padding: 1em;
+}
+.featured-proverbs, .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1em;
+}
+.proverb-card .card {
+background-color: #fff8dc;
+border: 1px solid #daa520;
+padding: 1em;
+transition: transform 0.3sease;
+}
